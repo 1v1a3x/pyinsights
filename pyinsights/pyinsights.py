@@ -38,7 +38,7 @@ def run_thread(params: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
 
     with ThreadPoolExecutor(max_workers=1) as executor:
         thread = executor.submit(query, params)
-        processing('Waiting', end=' ')
+        # processing('Waiting', end=' ')
 
         while True:
             try:
