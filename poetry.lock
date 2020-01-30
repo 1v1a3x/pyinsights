@@ -302,7 +302,7 @@ version = "0.1.7"
 
 [metadata]
 content-hash = "a3c2756bcf9779584ab70825d21f4754ad6dd1d457e32c8c9e8cee779ad22e87"
-python-versions = "^3.8"
+python-versions = "^3.7"
 
 [metadata.files]
 atomicwrites = [
