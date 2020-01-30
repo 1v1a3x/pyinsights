@@ -171,7 +171,7 @@ def query(
     """
 
     results = {}
-    processing('Waiting', end=' ')
+    # processing('Waiting', end=' ')
 
     client = InsightsClient(region, profile)
     client.start_query(**query_params)
