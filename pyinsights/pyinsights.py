@@ -44,12 +44,12 @@ def run_thread(params: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
             try:
                 results = thread.result(timeout=0.1)
             except confu.TimeoutError:
-                processing('.', end='')
+                # processing('.', end='')
                 sleep(0.5)
                 pass
             else:
                 if results:
-                    processing('.', end='\n')
+                    # processing('.', end='\n')
                     break
 
     return results
